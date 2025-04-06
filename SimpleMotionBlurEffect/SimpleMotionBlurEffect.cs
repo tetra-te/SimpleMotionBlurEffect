@@ -7,7 +7,7 @@ using YukkuriMovieMaker.Plugin.Effects;
 
 namespace SimpleMotionBlurEffect
 {
-    [VideoEffect("簡易モーションブラー", ["加工"], [], IsAviUtlSupported = false)]
+    [VideoEffect("簡易モーションブラー", ["加工"], ["motion blur"], IsAviUtlSupported = false)]
     internal class SimpleMotionBlurEffect : VideoEffectBase
     {
         public override string Label => "簡易モーションブラー";
